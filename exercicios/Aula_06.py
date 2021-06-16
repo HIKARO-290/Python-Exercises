@@ -1,26 +1,26 @@
 import random
 #######################
 # exercicio 01
-#print("exercício 01")
+print("exercício 01")
 #######################
-# senha = input("digite a senha")
-# while senha != "babalu":
-#     senha = input("senha incorreta digite novamente:")
-# print("senha correta")
+senha = input("digite a senha")
+while senha != "babalu":
+    senha = input("senha incorreta digite novamente:")
+print("senha correta")
 #######################
 # exercicio 02
-#print("exercício 02")
+print("exercício 02")
 #######################
-# teste = 0
-# resposta = input("digite M | F para declarar seu sexo biológico").upper().strip()
-# while teste != 1:
-#     if resposta.startswith("M") or resposta.startswith("F"):
-#         teste = 1
-#     else:
-#         resposta = input("valor digitado incorreto. Digite novamente").upper().strip()
+teste = 0
+resposta = input("digite M | F para declarar seu sexo biológico").upper().strip()
+while teste != 1:
+    if resposta.startswith("M") or resposta.startswith("F"):
+        teste = 1
+    else:
+         resposta = input("valor digitado incorreto. Digite novamente").upper().strip()
 #######################
 # exercicio 03
-#print("exercício 03")
+print("exercício 03")
 #######################
 
 clarividencia = random(11)
