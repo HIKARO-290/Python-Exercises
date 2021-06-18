@@ -6,5 +6,9 @@ for i in range(5):
     resposta = input(perguntas[i]).strip().lower()
     if resposta.startswith("s"):
         culpa += 1
+if culpa == 1:
+    print(f"Você é um(a): {resultado[culpa]}")
+else:
+    print(f"Você é um(a): {resultado[culpa-1]}")
 
-print(f"Você é um(a): {resultado[culpa-1]}")
+
