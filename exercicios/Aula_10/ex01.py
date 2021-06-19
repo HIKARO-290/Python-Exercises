@@ -11,4 +11,4 @@ for cont in range(5):
         contador[1] += 1
 for cont in cadastro:
     print(cont)
-print(f"menor de idade tem {contador[0]} \n maior de idade tem {contador[1]}")
+print(f"menor de idade tem {contador[0]} \nmaior de idade tem {contador[1]}")
