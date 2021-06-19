@@ -26,3 +26,6 @@ print(f"{len(teste)}")
 
 listacomp = [["and","gab"],["luc","ant"],["lima","part"]]
 print((listacomp[1][0]))
+
+
+    
