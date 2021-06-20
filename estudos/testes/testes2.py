@@ -1,22 +1,152 @@
-from turtle import *  # importa a biblioteca
-color('blue', 'green')  # escolhe a cor do traco e do preenchimento
-begin_fill()  # inicia o desenho na posicao (0,0)
-forward(200)  # move 200 passos a frente
-left(90)  # vira a esquerda 90 graus
-forward(200)  # move 200 passos a frente
-left(90)  # vira a esquerda 90 graus
-forward(200)  # move 200 passos a frente
-left(90)  # vira a esquerda 90 graus
-forward(200)
-left(45)
-forward(200)
-left(45)
-forward(200)
-left(90)
-forward(200)
-left(45)
-forward(200)
-#move 200 passos a frente
-end_fill() 
+from turtle import * 
+from time import sleep
 
+#desenha pedra,
+def desenha_Pedra(valor,posiy):
+    color('','')
+    setpos(0,posiy)
+    color('blue','green')
+    sleep(1)
+    write(valor+" escolheu pedra", move=True, align="right", font=("Arial", 15, "bold"))
+    sleep(1)
+    seth(0)
+    color('blue','green') 
+    setpos(0,0)
+    forward(50) 
+    left(45)  
+    forward(50)  
+    left(45)  
+    forward(50)  
+    left(45) 
+    forward(50)
+    left(45)
+    forward(50)
+    left(45)
+    forward(50)
+    left(45)
+    forward(50)
+    left(45)
+    forward(50)
+    end_fill() 
+#desenha tesoura
+def desenha_Tesoura(valor,posiy):
+    seth(0)
+    color("","")
+    setpos(0,posiy)
+    sleep(1)
+    color("blue","black")
+    write(valor+" escolheu: tesoura", move=True, align="right", font=("Arial", 15, "bold"))
+    color("","")
+    setpos(0,0)
+    color("yellow","black")
+    sleep(1)
+    begin_fill() 
+    left(-90) 
+    forward(200)  
+    left(30) 
+    forward(20) 
+    left(30)  
+    forward(20) 
+    left(30)  
+    forward(20)
+    left(30)
+    forward(20)
+    left(30)
+    forward(20)
+    left(30)
+    forward(20)
+    left(30)
+    forward(20)
+    left(30)
+    forward(20)
+    left(30)
+    forward(20)
+    left(-82)
+    forward(200)
+    left(160)
+    forward(200)
+    left(-81)
+    forward(20)
+    left(30)
+    forward(20)
+    left(30)
+    forward(20)
+    left(30)
+    forward(20)
+    left(30)
+    forward(20)
+    left(30)
+    forward(20)
+    left(30)
+    forward(20)
+    left(30)
+    forward(20)
+    end_fill()
+#desenha papel
+def desenha_Papel(valor,posiy):   
+    seth(0)
+    color("","")
+    setpos(0,posiy)    
+    sleep(1)
+    color("blue","limegreen")
+    write(valor+" escolheu: papel", move=True, align="right", font=("Arial", 15, "bold"))
+    sleep(1)
+    setpos(0,0)
+    color("blue","limegreen")
+    begin_fill()
+    left(180)  
+    forward(200) 
+    left(90)  
+    forward(400)  
+    left(90)  
+    forward(200)  
+    left(90) 
+    forward(400)
+    end_fill() 
+    color("","")
+    setpos(0,0)
+    
+#define desenho
+def escolhe_Desenho(nome,desenho,posiy):
+    if desenho == 0:
+        desenha_Pedra(nome,posiy)
+    elif desenho == 1:
+        desenha_Papel(nome,posiy)
+    else:
+        desenha_Tesoura(nome,posiy)
+
+from random import randint
+lista = ["pedra","papel","tesoura"]
+jogar = True
+while jogar:
+    maquina = randint(0,2)
+    begin_fill()
+    home()
+    jogador_str = str(textinput("jogada","digite sua opção pedra, papel ou tesoura: \n")).lower()
+    jogador = lista.index(jogador_str)
+    if jogador_str not in lista:
+      print("opção inválida tente novamente")
+      pass
+    escolhe_Desenho("jogador",jogador,50)
+    escolhe_Desenho("maquina",maquina,-50)
+    if maquina == jogador :
+        color("","")
+        setpos(0,0)
+        color("yellow","black")
+        write("Você empatou", move=True, align="center", font=("Arial", 50, "bold"))
+    elif maquina == 1 and jogador==0 or maquina==2 and jogador==1 or maquina == 0 and jogador == 2:
+        color("","")
+        setpos(0,0)
+        color("red","black")
+        write("Você perdeu", move=True, align="center", font=("Arial", 50, "bold"))
+    else:
+        color("","")
+        setpos(0,0)
+        color("limegreen","black")
+        write("Você ganhou", move=True, align="center", font=("Arial", 50, "bold"))
+        
+    
+    reset()
+    jogar = textinput("Fechar ou não","continuar jogando? sim | não : ").strip().lower().startswith('s')
+    # se for diferente de sim fecha o jogo , 
 done()
