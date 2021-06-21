@@ -13,7 +13,7 @@ Projeto 02| -      |<a href="https://github.com/HIKARO-290/Python-Exercises/blob
 
 :  |Tabela de explemplos e exercícios em aulas|  -
 :---------|:---------:|----------------:
-Aula | exercício | -
+Aula | nº de exercícios | lisk diretório arquivos
 01 | - | -
 02 | - | -
 03 | - | -
