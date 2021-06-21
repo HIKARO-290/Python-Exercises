@@ -1,9 +1,10 @@
 # Python-Exercises
 
 # Here are posted my exercises in python, made in blueetech course.
- :-----------------------------------:
- Projetos em curso 
- :-----------------------------------:
+ 
+:--------|:------:|-------:
+Projetos no curso 
+:-------------------------:
 Projetos  | notas  | links dos projetos
 :---------|:------:|------:
 Projeto 01|10.0    |<a href="https://github.com/HIKARO-290/Python-Exercises/blob/main/projetos/Projeto_01_%E2%80%93_Detetive.ipynb">Projeto 01</a>
