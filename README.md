@@ -3,7 +3,8 @@
 # Here are posted my exercises in python, made in blueetech course.
  
 
-          |Projetos no curso|
+ :         
+          | Projetos no curso |
 :---------|:------:|------:
 Projetos  | notas  | links dos projetos
 :---------|:------:|------:
