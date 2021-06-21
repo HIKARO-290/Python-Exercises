@@ -4,7 +4,7 @@
  
 
           
-:     | Projetos no curso |         :
+ -    | Projetos no curso |        -
 :-----------------------------------:
 Projetos  | notas  | links dos projetos
 :---------|:------:|------:
