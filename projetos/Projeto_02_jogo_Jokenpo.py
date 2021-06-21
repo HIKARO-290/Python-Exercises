@@ -37,10 +37,10 @@ jogar = True
 while jogar:
     maquina = randint(0,2)
     jogador_str = str(input("digite sua opção pedra, papel ou tesoura: \n")).lower()
-    jogador = lista.index(jogador_str)
     if jogador_str not in lista:
       print("opção inválida tente novamente")
-      pass
+      continue
+    jogador = lista.index(jogador_str)
     if maquina == jogador :
         print(f""""
               você:{iten[jogador]}
