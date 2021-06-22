@@ -15,18 +15,18 @@ Projeto 02| -      |<a href="https://github.com/HIKARO-290/Python-Exercises/blob
 :  |Tabela de explemplos e exercícios em aulas|  -
 :---------|:---------:|----------------:
 Aula | nº de exercícios | lisk diretório arquivos
-01 | - | -
-02 | - | -
-03 | - | -
-04 | - | -
-05 | - | -
-06 | - | -
-07 | - | -
-08 | - | -
-09 | - | -
-10 | - | -
-11 | - | -
-12 | - | -
+01 | 06 | <a href="">diretório</a>
+02 | 11 | <a href="">diretório</a>
+03 | 03 | <a href="">diretório</a>
+04 | 04 | <a href="">diretório</a>
+05 | 09 | <a href="">diretório</a>
+06 | 04 | <a href="">diretório</a>
+07 | 09 | <a href="">diretório</a>
+08 | 04 | <a href="">diretório</a>
+09 | 03 | <a href="">diretório</a>
+10 | 04 | <a href="">diretório</a>
+11 | 01 | <a href="">diretório</a>
+12 | - | <a href="">diretório</a>
 
 
 </center>
