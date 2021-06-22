@@ -1,9 +1,9 @@
 # Get the value in meters
 # pega valor em metros
-metros = float(input("digite quantos metros deseja converter: "))
+meters = float(input("Enter the meters value to convert: "))
 # Make a conversion from meters value
 # converte metros em centimetros
-centimetros =float(metros * 100)
+centimeters =float(meters * 100)
 # show the result from the conversion
 # apresenta resultado da conversão
-print(f"convertendo {metros} para centimetros temos: {centimetros:.2f} centimetros")
+print(f"converting {meters} to centimeters, we have: {centimeters:.2f} centimeters")
