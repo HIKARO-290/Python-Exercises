@@ -15,17 +15,17 @@ Projeto 02| -      |<a href="https://github.com/HIKARO-290/Python-Exercises/blob
 :  |Tabela de explemplos e exercícios em aulas|  -
 :---------|:---------:|----------------:
 Aula | nº de exercícios | lisk diretório arquivos
-01 | 06 | <a href="">diretório</a>
-02 | 11 | <a href="">diretório</a>
-03 | 03 | <a href="">diretório</a>
-04 | 04 | <a href="">diretório</a>
-05 | 09 | <a href="">diretório</a>
-06 | 04 | <a href="">diretório</a>
-07 | 09 | <a href="">diretório</a>
-08 | 04 | <a href="">diretório</a>
-09 | 03 | <a href="">diretório</a>
-10 | 04 | <a href="">diretório</a>
-11 | 01 | <a href="">diretório</a>
+01 | 06 | <a href="https://github.com/HIKARO-290/Python-Exercises/blob/main/exercicios_Aulas/Aula_01_IntroducaoPython.ipynb">diretório</a>
+02 | 11 | <a href="https://github.com/HIKARO-290/Python-Exercises/blob/main/exercicios_Aulas/Aula_02_Codelab.ipynb">diretório</a>
+03 | 03 | <a href="https://github.com/HIKARO-290/Python-Exercises/blob/main/exercicios_Aulas/Aula_03_Exercicios_String.ipynb">diretório</a>
+04 | 04 | <a href="https://github.com/HIKARO-290/Python-Exercises/blob/main/exercicios_Aulas/Aula_04_Exercicios_Codelab.ipynb">diretório</a>
+05 | 09 | <a href="https://github.com/HIKARO-290/Python-Exercises/blob/main/exercicios_Aulas/Aula_05_Laco_For.ipynb">diretório</a>
+06 | 04 | <a href="https://github.com/HIKARO-290/Python-Exercises/blob/main/exercicios_Aulas/Aula_06.py">diretório</a>
+07 | 09 | <a href="https://github.com/HIKARO-290/Python-Exercises/tree/main/exercicios_Aulas/Aula_07">diretório</a>
+08 | 04 | <a href="https://github.com/HIKARO-290/Python-Exercises/tree/main/exercicios_Aulas/Aula_08">diretório</a>
+09 | 03 | <a href="https://github.com/HIKARO-290/Python-Exercises/tree/main/exercicios_Aulas/Aula_09">diretório</a>
+10 | 04 | <a href="https://github.com/HIKARO-290/Python-Exercises/tree/main/exercicios_Aulas/Aula_10">diretório</a>
+11 | 01 | <a href="https://github.com/HIKARO-290/Python-Exercises/tree/main/exercicios_Aulas/Aula_11">diretório</a>
 12 | - | <a href="">diretório</a>
 
 
