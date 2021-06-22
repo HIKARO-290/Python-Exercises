@@ -8,9 +8,9 @@ sex = input("what is your sex type: ").lower()
 #verifica se o cliente é homem e se for homen realiza um calculo
 if sex.startswith("m"):
     weight = (72.7*height)-58
-    print("this person with man sex need have to weight in max like this: ",weight)
+    print("this person with man sex need have to weight in max like: ",weight)
 #if the client is not a man perform the other colculus
 #Se o cliente nao for homen realiza outro calculo
 else:
     weight = (62.1*height)-44.7
-    print("this person with womam sex need have to weight in max like this: ",weight)
+    print("this person with womam sex need have to weight in max like: ",weight)
