@@ -21,24 +21,66 @@
        <td><a href="https://github.com/HIKARO-290/Python-Exercises/blob/main/projetos/Projeto_02_jogo_Jokenpo.py">Projeto 02</a></td>
 
 </table>
-<p align="center">
 
-:  |Tabela de explemplos e exercícios em aulas|  -
-:---------|:---------:|----------------:
-Aula | nº de exercícios | lisk diretório arquivos
-01 | 06 | <a href="https://github.com/HIKARO-290/Python-Exercises/blob/main/exercicios_Aulas/Aula_01_IntroducaoPython.ipynb">diretório</a>
-02 | 11 | <a href="https://github.com/HIKARO-290/Python-Exercises/blob/main/exercicios_Aulas/Aula_02_Codelab.ipynb">diretório</a>
-03 | 03 | <a href="https://github.com/HIKARO-290/Python-Exercises/blob/main/exercicios_Aulas/Aula_03_Exercicios_String.ipynb">diretório</a>
-04 | 04 | <a href="https://github.com/HIKARO-290/Python-Exercises/blob/main/exercicios_Aulas/Aula_04_Exercicios_Codelab.ipynb">diretório</a>
-05 | 09 | <a href="https://github.com/HIKARO-290/Python-Exercises/blob/main/exercicios_Aulas/Aula_05_Laco_For.ipynb">diretório</a>
-06 | 04 | <a href="https://github.com/HIKARO-290/Python-Exercises/blob/main/exercicios_Aulas/Aula_06.py">diretório</a>
-07 | 09 | <a href="https://github.com/HIKARO-290/Python-Exercises/tree/main/exercicios_Aulas/Aula_07">diretório</a>
-08 | 04 | <a href="https://github.com/HIKARO-290/Python-Exercises/tree/main/exercicios_Aulas/Aula_08">diretório</a>
-09 | 03 | <a href="https://github.com/HIKARO-290/Python-Exercises/tree/main/exercicios_Aulas/Aula_09">diretório</a>
-10 | 04 | <a href="https://github.com/HIKARO-290/Python-Exercises/tree/main/exercicios_Aulas/Aula_10">diretório</a>
-11 | 01 | <a href="https://github.com/HIKARO-290/Python-Exercises/tree/main/exercicios_Aulas/Aula_11">diretório</a>
-12 | 06 | <a href="https://github.com/HIKARO-290/Python-Exercises/tree/main/exercicios_Aulas/Aula_12">diretório</a>
-13 | - | <a href="">diretório</a>
+<table align="center" border="0">
+      <tr>
+          <th colspan="3"> Tabela de explemplos e exercícios em aulas </th>
+      <tr>
+          <th>Aula </th>
+          <th> nº de exercícios </th>
+          <th> lisk diretório arquivos</th>
+      <tr>
+          <td>01 </td>
+          <td> 06 </td>
+          <td> <a href="https://github.com/HIKARO-290/Python-Exercises/blob/main/exercicios_Aulas/Aula_01_IntroducaoPython.ipynb">diretório</a></td>
+      <tr>
+          <td>02 </td>
+          <td> 11 </td>
+          <td> <a href="https://github.com/HIKARO-290/Python-Exercises/blob/main/exercicios_Aulas/Aula_02_Codelab.ipynb">diretório</a></td>
+      <tr>
+          <td>03 </td>
+          <td> 03 </td>
+          <td> <a href="https://github.com/HIKARO-290/Python-Exercises/blob/main/exercicios_Aulas/Aula_03_Exercicios_String.ipynb">diretório</a></td>
+       <tr>
+          <td>04 </td>
+          <td> 04 </td>
+          <td> <a href="https://github.com/HIKARO-290/Python-Exercises/blob/main/exercicios_Aulas/Aula_04_Exercicios_Codelab.ipynb">diretório</a></td>
+       <tr>
+           <td>05 </td>
+           <td> 09 </td>
+           <td> <a href="https://github.com/HIKARO-290/Python-Exercises/blob/main/exercicios_Aulas/Aula_05_Laco_For.ipynb">diretório</a></td>
+       <tr>
+           <td>06 </td>
+           <td> 04 </td>
+           <td> <a href="https://github.com/HIKARO-290/Python-Exercises/blob/main/exercicios_Aulas/Aula_06.py">diretório</a></td>
+       <tr>
+           <td>07 </td>
+           <td> 09 </td>
+           <td> <a href="https://github.com/HIKARO-290/Python-Exercises/tree/main/exercicios_Aulas/Aula_07">diretório</a></td>
+       <tr>
+           <td>08 </td>
+           <td> 04 </td>
+           <td> <a href="https://github.com/HIKARO-290/Python-Exercises/tree/main/exercicios_Aulas/Aula_08">diretório</a></td>
+       <tr>
+           <td>09 </td>
+           <td> 03 </td>
+           <td> <a href="https://github.com/HIKARO-290/Python-Exercises/tree/main/exercicios_Aulas/Aula_09">diretório</a></td>
+       <tr>
+           <td>10 </td>
+           <td> 04 </td>
+           <td> <a href="https://github.com/HIKARO-290/Python-Exercises/tree/main/exercicios_Aulas/Aula_10">diretório</a></td>
+       <tr>
+           <td>11 </td>
+           <td> 01 </td>
+           <td> <a href="https://github.com/HIKARO-290/Python-Exercises/tree/main/exercicios_Aulas/Aula_11">diretório</a></td>
+       <tr>
+           <td>12 </td>
+           <td> 06 </td>
+           <td> <a href="https://github.com/HIKARO-290/Python-Exercises/tree/main/exercicios_Aulas/Aula_12">diretório</a></td>
+       <tr>
+           <td>13 </td>
+           <td> - </td>
+           <td> <a href="">diretório</a></td>
 
 
-</p>
+</table>
