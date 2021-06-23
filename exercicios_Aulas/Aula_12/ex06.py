@@ -1,6 +1,5 @@
 #pede ao usuário uma opção
 lista = list()
-cont = 0
 opcao = 0
 for controller in range(15):
 #Cria dicionário para cadastrar aluno
