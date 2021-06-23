@@ -38,7 +38,7 @@ for controller in range(15):
     elif option == 2:
 #imprime boletim informativo
         if not lista:
-            print("não existe alunos cadastrados")
+            print("não existe alunos cadastrados") 
         else:
             print ("{:<15} {:<8} {:<8} {:<8} {:<8} {:<8} {:<8} {:<13}".format("_______________","________","________","________","________","________","________","_____________"))
             print ("{:<15} {:<8} {:<8} {:<8} {:<8} {:<8} {:<8} {:<13}".format("| NOME ","|NOTA 01","|NOTA 02","|NOTA 03","|NOTA 04","|NOTA 05","|MÉDIA","|STATUS     |"))

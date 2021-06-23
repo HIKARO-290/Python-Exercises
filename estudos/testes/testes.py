@@ -26,8 +26,17 @@
 
 # listacomp = [["and","gab"],["luc","ant"],["lima","part"]]
 # print((listacomp[1][0]))
+lista = {
+    'nome':'hikaro',
+    'Nota': float(5.5)
+} 
+print("".ljust(33).replace(" ","_")) 
+print("|"+"TABELA".center(37-len("TABELA"))+"|")  
+print("|".ljust(32).replace(" ","_")+"|") 
+for i,t in lista.items():
+    print(f"|{str(i).ljust(15)}|{str(t).ljust(15)}|")
+    
+    
 
-teste ="string"
-teste.ljust(50)
-print(f"|{teste.ljust(50)}|")
+
     
