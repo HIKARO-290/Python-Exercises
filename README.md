@@ -26,7 +26,8 @@ Aula | nº de exercícios | lisk diretório arquivos
 09 | 03 | <a href="https://github.com/HIKARO-290/Python-Exercises/tree/main/exercicios_Aulas/Aula_09">diretório</a>
 10 | 04 | <a href="https://github.com/HIKARO-290/Python-Exercises/tree/main/exercicios_Aulas/Aula_10">diretório</a>
 11 | 01 | <a href="https://github.com/HIKARO-290/Python-Exercises/tree/main/exercicios_Aulas/Aula_11">diretório</a>
-12 | - | <a href="">diretório</a>
+12 | 06 | <a href="https://github.com/HIKARO-290/Python-Exercises/tree/main/exercicios_Aulas/Aula_12">diretório</a>
+13 | - | <a href="">diretório</a>
 
 
 </center>
