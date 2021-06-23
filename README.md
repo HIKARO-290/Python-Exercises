@@ -3,15 +3,24 @@
 # Here are posted my exercises in python, made in Blueetech course.
 ### (Aqui estarei postando meus exercícios em python, feitos no curso da Blueedtech.)
  
-<p align="center">
-          
-:   -    | Projetos no curso |        -
-:---------|:-------:|----------------:
-Projetos  | notas  | links dos projetos
-Projeto 01|10.0    |<a href="https://github.com/HIKARO-290/Python-Exercises/blob/main/projetos/Projeto_01_%E2%80%93_Detetive.ipynb">Projeto 01</a>
-Projeto 02| -      |<a href="https://github.com/HIKARO-290/Python-Exercises/blob/main/projetos/Projeto_02_jogo_Jokenpo.py">Projeto 02</a>
-</p>
 
+<table align="center" border="0">
+      <tr>
+          <th colspan="3"> Projetos no curso </th>
+      <tr>
+       <th>Projetos</th>
+       <th>notas</th>
+       <th>links dos projetos</th>
+      <tr>
+       <td>Projeto 01</td>
+       <td>10.0</td>
+       <td><a href="https://github.com/HIKARO-290/Python-Exercises/blob/main/projetos/Projeto_01_%E2%80%93_Detetive.ipynb">Projeto 01</a></td>
+      <tr>
+       <td>Projeto 02</td>
+       <td> - </td>
+       <td><a href="https://github.com/HIKARO-290/Python-Exercises/blob/main/projetos/Projeto_02_jogo_Jokenpo.py">Projeto 02</a></td>
+
+</table>
 <p align="center">
 
 :  |Tabela de explemplos e exercícios em aulas|  -
