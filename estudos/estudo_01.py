@@ -8,6 +8,7 @@ print(valormonetario)
 
 
 
+
  # agora é float novamente 
 #com apenas 2 casas decimais
 valordecimal *= 2
