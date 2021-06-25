@@ -79,6 +79,14 @@
            <td> <a href="https://github.com/HIKARO-290/Python-Exercises/tree/main/exercicios_Aulas/Aula_12">diretório</a></td>
        <tr>
            <td>13 </td>
+           <td> 03 </td>
+           <td> <a href="https://github.com/HIKARO-290/Python-Exercises/tree/main/exercicios_Aulas/Aula_13">diretório</a></td>
+        <tr>
+           <td>14 </td>
+           <td> 08 </td>
+           <td> <a href="https://github.com/HIKARO-290/Python-Exercises/tree/main/exercicios_Aulas/Aula_14">diretório</a></td>
+         <tr>
+           <td>15 </td>
            <td> - </td>
            <td> <a href="">diretório</a></td>
 
