@@ -35,8 +35,6 @@ for matche in matches.items():
     print(f"""        {"".center(27).replace(" ","_")}
         |{("matche "+str(int(matche[0])+1)).center(25)}|
         |{"".center(25).replace(" ","_")}|""")
-    
-    
     for gamer in temp.items():
         temp = gamer[1]
         print(f"""        |{str(gamer[0]).center(12)}|{str(temp['sumdices']).center(12)}|""")
