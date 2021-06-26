@@ -12,7 +12,7 @@ def convertDate(year,month,day):
     return (f"{date.day} de {month} de {date.year}")
 def checkIfTheDateExists(value):
     date = value.split("/")
-    if int(date[2])%4==0:
+    if int(date[2])%4==0 and int(date[2])%400 == 0:
         if int(date[1]) == 2:
             if date[0]==29:
                 pass
