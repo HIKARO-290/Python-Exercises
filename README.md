@@ -93,6 +93,10 @@
            <td>15 </td>
            <td> - </td>
            <td> <a href="">diretório</a></td>
+          <tr>
+           <td>codelab saturday </td>
+           <td> 3 </td>
+           <td> <a href="https://github.com/HIKARO-290/Python-Exercises/tree/main/exercicios_Aulas/Codelab_Saturday_Study_Class/26-06-2021">diretório</a></td>
 
 
 </table>
