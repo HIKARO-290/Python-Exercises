@@ -70,8 +70,7 @@ dices = {
         |  0   0   | /    #
         |__________|/     #
     """},
-    'dice02':{'1' : """
-    ____________  
+    'dice02':{'1' : """    ____________  
     |\          \    
     | \     0    \  
     |  \          \  
@@ -80,9 +79,9 @@ dices = {
      \  |   0  0   |
       \ |   0  0   |
        \|__________|
+
     """,
-    '2' : """
-    ____________  
+    '2' : """    ____________  
     |\          \    
     | \   0  0   \  
     |  \          \  
@@ -91,9 +90,9 @@ dices = {
      \  |   0  0   |
       \ |   0  0   |
        \|__________|
+
     """,
-    '3' : """ 
-    ____________  
+    '3' : """    ____________  
     |\ 0        \    
     | \    0     \  
     |  \       0  \  
@@ -102,9 +101,9 @@ dices = {
      \  |   0  0   |
       \ |   0  0   |
        \|__________|
+
     """,
-    '4' : """
-    ____________  
+    '4' : """    ____________  
     |\          \    
     | \ 0     0  \  
     |  \  0    0  \  
@@ -113,9 +112,9 @@ dices = {
      \  |   0  0   |
       \ |   0  0   |
        \|__________|
+       
     """,
-    '5' : """
-    ____________  
+    '5' : """    ____________  
     |\   0    0 \    
     | \      0   \  
     |  \    0   0 \  
@@ -124,9 +123,9 @@ dices = {
      \  |   0  0   |
       \ |   0  0   |
        \|__________|
+
     """,
-    '6' : """
-    ____________  
+    '6' : """    ____________  
     |\  0    0  \    
     | \  0    0  \  
     |  \  0    0  \  
@@ -135,9 +134,11 @@ dices = {
      \  |   0  0   |
       \ |   0  0   |
        \|__________|
+
     """}}
 
 #get the name of gamers
+os.system('cls' if os.name == 'nt' else 'clear')
 winners = list()
 for count in range(4):
     gamers[input(f"Enter with the name of the {count+1}º gamer: ")] = dict({'winner' : 0})
@@ -174,7 +175,7 @@ bigwinner = dict({'name':'','value':0})
 for matche in matches.items():
     temp = matche[1]
     for gamer in temp.keys():
-        sleep(3)
+        
         print("The player:",gamer,"play:")
         part1 = dices['dice01'][str(temp[gamer]['dice01'])].split("#")
         part2 = dices['dice02'][str(temp[gamer]['dice02'])].split("\n")
@@ -182,8 +183,8 @@ for matche in matches.items():
         for i in range(len(part1)):
             full += f"{part1[i]} {part2[i]}"
             full +="\n"
-    
         print(full)
+        sleep(3)
         #clear all inputs prints
         os.system('cls' if os.name == 'nt' else 'clear')
 
