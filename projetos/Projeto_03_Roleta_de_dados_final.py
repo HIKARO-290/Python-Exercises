@@ -175,15 +175,13 @@ bigwinner = dict({'name':'','value':0})
 for matche in matches.items():
     temp = matche[1]
     for gamer in temp.keys():
-        
         print("The player:",gamer,"play:")
         part1 = dices['dice01'][str(temp[gamer]['dice01'])].split("#")
         part2 = dices['dice02'][str(temp[gamer]['dice02'])].split("\n")
-        print(len(part1),len(part2))
         full=""
         for i in range(len(part1)):
-            full += f"{part1[i]} {part2[i]}"
-            full +="\n"
+            full += part1[i]+part2[i]
+            full +=" \n "
         print(full)
         sleep(3)
         #clear all inputs prints
