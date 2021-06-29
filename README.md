@@ -22,7 +22,7 @@
         <tr>
        <td>Projeto 03</td>
        <td> - </td>
-       <td><a href="https://github.com/HIKARO-290/Python-Exercises/blob/main/projetos/Projeto_03_Roleta_de_dados.py">Projeto 03</a></td>
+       <td><a href="https://github.com/HIKARO-290/Python-Exercises/blob/main/projetos/Projeto_03_Roleta_de_dados_final.py">Projeto 03</a></td>
 
 </table>
 
