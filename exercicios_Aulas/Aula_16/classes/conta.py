@@ -12,3 +12,13 @@ class Conta:
     def depositarEmConta(self,valor):
         self.saldoconta+=valor
         print("Seu novo saldo é de:",self.saldoconta)
+    def validanome(self):
+        if self.titularconta.isnumeric():
+            return 0
+        else:
+            return 1
+    def validavalor(valor):
+        if valor.isnumeric():
+            return float(valor)
+        else:
+            return 0

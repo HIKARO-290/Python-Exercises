@@ -1,28 +1,36 @@
-import sys
-from .imports.conta import Conta
+from classes.conta import Conta
 contas = dict()
 while True:
-    if input("você deseja cadastrar uma nova conta?").lower().startswith('n'):
-        break
-    else:
-        titular = input("digite o nome do titular: ")
-        contas[titular] = Conta(titular,float(input("digite o Valor inicial desta conta: ")))
- 
-    operacao = int(input("que operação deseja realizar?\n01-depositar\n02-sacar\n03-cadastrar\n04-Sair "))
+    operacao = int(input("que operação deseja realizar?\n01-depositar\n02-sacar\n03-cadastrar\n04-Sair \n"))
     if operacao == 1:
-        print("digite o nome do títular da conta que deseja realizar a operação: ")
-        for contatitular in contas.keys():
-            print("conta de :",contatitular)
-        titular = input()
-        contas[titular].depositarEmConta(float(input("digite o valor que deseja depositar: ")))
+        while True:
+            print("digite o nome do títular da conta que deseja realizar a operação: ")
+            for contatitular in contas.keys():
+                print("conta de :",contatitular)
+            titular = input()
+            if titular.isnumeric():
+                print("Valor incorreto digite novamente")
+            else:
+                contas[titular].depositarEmConta(float(input("digite o valor que deseja depositar: ")))
+                continue
+    
     elif operacao == 2:
         print("digite o nome do títular da conta que deseja realizar a operação: ")
         for contatitular in contas.keys():
             print("conta de :",contatitular)
-        titular = input(": ")
-        contas[titular].sacarEmConta(float(input("digite o valor que deseja sacar: ")))
+        titular = input("\n: ")
+        if titular.isnumeric():
+            print("Valor incorreto digite novamente")
+        else:
+            contas[titular].sacarEmConta(float(input("digite o valor que deseja sacar: ")))
+            continue
     elif operacao == 3:
         titular = input("digite o nome do titular: ")
-        contas[titular] = Conta(titular,float(input("digite o Valor inicial desta conta: ")))
+        if titular.isnumeric():
+            print("Valor incorreto digite novamente")
+        else:
+            contas[titular] = Conta(titular,float(input("digite o Valor inicial desta conta: ")))
+            continue
+       
     else:
         break
