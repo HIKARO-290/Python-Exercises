@@ -4,7 +4,8 @@ import os
 #create a dictionary to save all gamers
 gamers = dict()
 dices = {
-    'dice01':{'1' : """
+    'dice01':{
+    '1' : """
             ____________  #
            /          /|  #
           /     0    / |  #
@@ -26,7 +27,7 @@ dices = {
         |          | /    #
         |__________|/     #
     """,
-    '3' : """            
+    '3' : """         
              ___________  #
             /          /| #
            /  0  0  0 / | #
@@ -79,8 +80,8 @@ dices = {
      \  |   0  0   |
       \ |   0  0   |
        \|__________|
-
-    """,
+       
+       """,
     '2' : """    ____________  
     |\          \    
     | \   0  0   \  
@@ -90,8 +91,8 @@ dices = {
      \  |   0  0   |
       \ |   0  0   |
        \|__________|
-
-    """,
+       
+       """,
     '3' : """    ____________  
     |\ 0        \    
     | \    0     \  
@@ -101,8 +102,8 @@ dices = {
      \  |   0  0   |
       \ |   0  0   |
        \|__________|
-
-    """,
+       
+       """,
     '4' : """    ____________  
     |\          \    
     | \ 0     0  \  
@@ -113,7 +114,7 @@ dices = {
       \ |   0  0   |
        \|__________|
        
-    """,
+       """,
     '5' : """    ____________  
     |\   0    0 \    
     | \      0   \  
@@ -123,8 +124,8 @@ dices = {
      \  |   0  0   |
       \ |   0  0   |
        \|__________|
-
-    """,
+       
+       """,
     '6' : """    ____________  
     |\  0    0  \    
     | \  0    0  \  
@@ -134,14 +135,14 @@ dices = {
      \  |   0  0   |
       \ |   0  0   |
        \|__________|
-
-    """}}
+       
+       """}}
 
 #get the name of gamers
 os.system('cls' if os.name == 'nt' else 'clear')
 winners = list()
 for count in range(4):
-    gamers[input(f"Enter with the name of the {count+1}º gamer: ")] = dict({'winner' : 0})
+    gamers[input(f"Enter with the name of the {count+1}º gamer: ")+str(count+1)] = dict({'winner' : 0})
     
 numberofgames = int(input("Enter with the number of matches you will play: "))
 #clear all inputs prints
@@ -164,7 +165,6 @@ for count in range(numberofgames):
     matcheslist.sort(reverse = True)
     for i in range(4):
         for gamer in gamers.items():
-            
             temp2=gamer[1]
             if temp2['sumdices'] == matcheslist[i]:
                 temp[gamer[0]]= gamer[1]
@@ -179,6 +179,7 @@ for matche in matches.items():
         print("The player:",gamer,"play:")
         part1 = dices['dice01'][str(temp[gamer]['dice01'])].split("#")
         part2 = dices['dice02'][str(temp[gamer]['dice02'])].split("\n")
+        print(len(part1),len(part2))
         full=""
         for i in range(len(part1)):
             full += f"{part1[i]} {part2[i]}"
