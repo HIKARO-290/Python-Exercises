@@ -18,8 +18,6 @@ class Conta:
             print("saque realizado com sucesso!")
         else:
             print("Você não possui saldo suficiente!")
-
-    
     def depositarEmConta(self,valor):
         self.saldoconta+=valor
         print("Seu novo saldo é de:",self.saldoconta)
@@ -28,20 +26,20 @@ while True:
     if input("você deseja cadastrar uma nova conta?").lower().startswith('n'):
         break
     else:
-        titular = input("digite o nome do titular:")
-        contas[titular] = Conta(titular,float(input("digite o Valor inicial desta conta")))
+        titular = input("digite o nome do titular: ")
+        contas[titular] = Conta(titular,float(input("digite o Valor inicial desta conta: ")))
  
     operacao = int(input("que operação deseja realizar?\n01-depositar\n02-sacar "))
     if operacao == 1:
-        print("digite o nome do títular da conta que deseja realizar a operação")
+        print("digite o nome do títular da conta que deseja realizar a operação: ")
         for conta in contas.keys():
             print(conta)
         titular = input()
         contas[titular].depositarEmConta(float(input("digite o valor que deseja depositar: ")))
     else:
-        print("digite o nome do títular da conta que deseja realizar a operação")
+        print("digite o nome do títular da conta que deseja realizar a operação: ")
         for conta in contas.keys():
-            print(conta)
-        titular = input()
+            print("conta de :"conta)
+        titular = input(": ")
         contas[titular].sacarEmConta(float(input("digite o valor que deseja sacar: ")))
             
