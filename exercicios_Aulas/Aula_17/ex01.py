@@ -4,7 +4,7 @@
 # feitos de forma randômica
 
 from classes.dice import Dice
-from classes.toin import Toin
+from classes.coin import Coin
 
 class main:
     def makeChoise():
@@ -15,8 +15,8 @@ class main:
         """)
         if int(input("")) == 1:
             play = Dice(int(input("Enter with the number of side you tink: ")),name)
-            print(verifyDecision(play.rollDice()))
+            print(play.verifyDecision(play.rollDice()))
         else:
-            play = Dice(input("Enter with head or tail to try advice what coin side: "),name)
-            print(verifyDecision(play.turnCoin()))
+            play = Coin(input("Enter with head or tail to try advice what coin side: "),name)
+            print(play.verifyDecision(play.turnCoin()))
     makeChoise()

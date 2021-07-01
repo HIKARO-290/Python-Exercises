@@ -1,12 +1,12 @@
 from random import randint
-class Toin:
+class Coin:
     def __init__(self,decision="head",name=""):
         self.playername = name
         self.sidehead = "head"
         self.sidetail = "tail"
         self.personaldecision = decision
     def turnCoin(self):
-        coin = randint(2)
+        coin = randint(1,2)
         if coin ==1:
             return self.sidehead
         else:
