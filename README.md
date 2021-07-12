@@ -17,16 +17,20 @@
        <td><a href="https://github.com/hikarocarvalho/Python-Exercises/blob/main/projetos/Projeto_01_%E2%80%93_Detetive.ipynb">Projeto 01</a></td>
       <tr>
        <td>Projeto 02</td>
-       <td> - </td>
+       <td> 9.0 </td>
        <td><a href="https://github.com/hikarocarvalho/Python-Exercises/blob/main/projetos/Projeto_02_jogo_Jokenpo.py">Projeto 02</a></td>
         <tr>
        <td>Projeto 03</td>
-       <td> - </td>
+       <td> 10.0 </td>
        <td><a href="https://github.com/hikarocarvalho/Python-Exercises/blob/main/projetos/Projeto_03_Roleta_de_dados_final.py">Projeto 03</a></td>
         <tr>
        <td>Projeto 04</td>
-       <td> - </td>
+       <td> 10.0 </td>
        <td><a href="https://github.com/hikarocarvalho/Python-Exercises/blob/main/projetos/Projeto_04_Simulador_de_Votacao.py">Projeto 04</a></td>
+       <tr>
+       <td>Projeto 05</td>
+       <td> - </td>
+       <td><a href="https://github.com/hikarocarvalho/ProjetoBlue_05.git">Projeto 04</a></td>
 
 
 </table>
@@ -97,7 +101,23 @@
          <tr>
            <td>15 </td>
            <td> - </td>
-           <td> <a href="">diretório</a></td>
+           <td> <a href="#">-</a></td>
+          <tr>
+           <td>16 </td>
+           <td> 2 </td>
+           <td> <a href="https://github.com/hikarocarvalho/Python-Exercises/tree/main/exercicios_Aulas/Aula_16">diretório</a></td>
+          <tr>
+           <td>17 </td>
+           <td> 2 </td>
+           <td> <a href="https://github.com/hikarocarvalho/Python-Exercises/tree/main/exercicios_Aulas/Aula_17">diretório</a></td>
+          <tr>
+           <td>18 </td>
+           <td> 1 </td>
+           <td> <a href="https://github.com/hikarocarvalho/Python-Exercises/tree/main/exercicios_Aulas/Aula_18">diretório</a></td>
+          <tr>
+           <td>19 </td>
+           <td> 1 </td>
+           <td> <a href="https://github.com/hikarocarvalho/Python-Exercises/tree/main/exercicios_Aulas/Aula_19">diretório</a></td>
           <tr>
            <td>codelab sabado </td>
            <td> 3 </td>
