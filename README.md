@@ -29,7 +29,7 @@
        <td><a href="https://github.com/hikarocarvalho/Python-Exercises/blob/main/projetos/Projeto_04_Simulador_de_Votacao.py">Projeto 04</a></td>
        <tr>
        <td>Projeto 05</td>
-       <td> - </td>
+       <td> 10.0 </td>
        <td><a href="https://github.com/hikarocarvalho/ProjetoBlue_05.git">Projeto 05</a></td>
 
 
