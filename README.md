@@ -1,7 +1,7 @@
 # Python-Exercises
 
 # Here are posted my exercises in python, made in Blueetech course.
-### (Aqui estarei postando meus exercícios em python, feitos no curso da Blueedtech.)
+### (Aqui estarei postando meus exercícios em python, feitos no curso da Blueedtech. Module 01)
  
 
 <table align="center" border="0">
